@@ -837,8 +837,9 @@ address { font-style: normal; }
   .nav-link { font-size: 17px; padding: 12px 16px; }
   .hamburger { display: flex; }
 
-  .hero-content { padding-top: 120px; }
+  .hero-content { padding-top: 120px; padding-bottom: 60px; }
   .hero-stats { gap: 24px; }
+  .hero-scroll { display: none; }
 
   .emergency-inner { gap: 8px; }
   .emergency-phone { margin-left: 0; }
