@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Maurer Haustechnik GmbH – Ihr Spezialist für Elektro, Sanitär und Heizung in Kassel. Über 60 Jahre Erfahrung." />
+  <title>Maurer Haustechnik GmbH – Elektro · Sanitär · Heizung</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ======== NAVIGATION ======== -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-m">M</span>
+        <span class="logo-text">aurer <strong>Haustechnik</strong></span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#leistungen" class="nav-link">Leistungen</a>
+        <a href="#ueber-uns" class="nav-link">Über uns</a>
+        <a href="#wellness" class="nav-link">Wellness</a>
+        <a href="#kontakt" class="nav-link">Kontakt</a>
+        <a href="tel:056183151" class="btn btn-sm btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.42A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          0561-83151
+        </a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Menü öffnen">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ======== HERO ======== -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">Seit über 60 Jahren in Kassel</div>
+      <h1 class="hero-title">
+        Ihr zuverlässiger Partner für<br />
+        <span class="gradient-text">Elektro · Sanitär · Heizung</span>
+      </h1>
+      <p class="hero-subtitle">
+        Von der modernen Badgestaltung über effiziente Heizsysteme bis zur intelligenten Elektroinstallation – Maurer Haustechnik steht für Qualität und Verlässlichkeit.
+      </p>
+      <div class="hero-actions">
+        <a href="#kontakt" class="btn btn-primary btn-lg">Kontakt aufnehmen</a>
+        <a href="#leistungen" class="btn btn-outline btn-lg">Unsere Leistungen</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">60+</span>
+          <span class="stat-label">Jahre Erfahrung</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">24/7</span>
+          <span class="stat-label">Notfallservice</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">6</span>
+          <span class="stat-label">Fachbereiche</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Mehr entdecken</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ======== EMERGENCY BANNER ======== -->
+  <div class="emergency-bar">
+    <div class="container emergency-inner">
+      <div class="emergency-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+      </div>
+      <p><strong>Notfall?</strong> Unser Bereitschaftsdienst ist rund um die Uhr erreichbar:</p>
+      <a href="tel:056183151" class="emergency-phone">0561-831 51</a>
+    </div>
+  </div>
+
+  <!-- ======== LEISTUNGEN ======== -->
+  <section class="section" id="leistungen">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Was wir bieten</span>
+        <h2 class="section-title">Unsere Leistungen</h2>
+        <p class="section-subtitle">Alles aus einer Hand – von der Planung bis zur Umsetzung</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card" data-delay="0">
+          <div class="service-icon service-icon--heizung">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <h3 class="service-title">Heizung</h3>
+          <p class="service-desc">Moderne Heizsysteme, Heizkörper, hydraulischer Abgleich, Lüftungsanlagen, Kaminrenovierung und Holzheizung.</p>
+          <ul class="service-list">
+            <li>Heizungsrechner & Planung</li>
+            <li>Hydraulischer Abgleich</li>
+            <li>Kaminrenovierung</li>
+            <li>Holzheizung</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-delay="100">
+          <div class="service-icon service-icon--sanitaer">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22V12M12 12C12 7 7 4 2 6M12 12C12 7 17 4 22 6"/><path d="M5 19.5C5.5 17 7 16 9 16M19 19.5c-.5-2.5-2-3.5-4-3.5"/></svg>
+          </div>
+          <h3 class="service-title">Sanitär</h3>
+          <p class="service-desc">Wasseraufbereitung, Kalkschutz, Filtration, Wasserinstallation und Wasserqualitätsanalyse.</p>
+          <ul class="service-list">
+            <li>Wasseraufbereitung</li>
+            <li>Kalkschutz & Filtration</li>
+            <li>Wasserinstallation</li>
+            <li>Wasserqualitätstest</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-delay="200">
+          <div class="service-icon service-icon--elektro">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </div>
+          <h3 class="service-title">Elektro</h3>
+          <p class="service-desc">E-Check, Arbeitsplatzbeleuchtung, Sicherheitsbeleuchtung, LED-Systeme, Smart Home und Öko-Installation.</p>
+          <ul class="service-list">
+            <li>E-Check Zertifizierung</li>
+            <li>LED & Smart Home</li>
+            <li>Sicherheitsbeleuchtung</li>
+            <li>Öko-Installation</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-delay="0">
+          <div class="service-icon service-icon--sicherheit">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3 class="service-title">Sicherheit</h3>
+          <p class="service-desc">Bewegungsmelder, Zutrittskontrolle, Alarmanlagen, Videokameras, Rauch-/Gas-/Wassermelder und Hausbegehungen.</p>
+          <ul class="service-list">
+            <li>Alarm & Videoüberwachung</li>
+            <li>Zutrittskontrolle</li>
+            <li>Rauch-/Gas-/Wassermelder</li>
+            <li>Hausbegehungen</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-delay="100">
+          <div class="service-icon service-icon--kommunikation">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <h3 class="service-title">Kommunikation</h3>
+          <p class="service-desc">TV-Empfang, Gegensprechanlagen, Datennetzwerke und moderne Kommunikationslösungen.</p>
+          <ul class="service-list">
+            <li>TV-Empfang & Sat</li>
+            <li>Gegensprechanlagen</li>
+            <li>Datennetzwerke</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-delay="200">
+          <div class="service-icon service-icon--service">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>
+          </div>
+          <h3 class="service-title">Service & Wartung</h3>
+          <p class="service-desc">Regelmäßige Wartung, Heizungsservice, Effizienzlabeling und schnelle Entstörung.</p>
+          <ul class="service-list">
+            <li>Wartungsverträge</li>
+            <li>Heizungsservice</li>
+            <li>Effizienzlabeling</li>
+            <li>Schnelle Entstörung</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== WELLNESS / BÄDER ======== -->
+  <section class="section section--dark" id="wellness">
+    <div class="container">
+      <div class="wellness-grid">
+        <div class="wellness-text">
+          <span class="section-tag section-tag--light">Wellness & Bad</span>
+          <h2 class="section-title section-title--light">Ihr Traumbad – individuell geplant</h2>
+          <p class="wellness-desc">
+            Wir gestalten Bäder, die mehr als Funktionsräume sind – Ihre persönliche Wellness-Oase. Von der modernen Designdusche über das freistehende Badewannenerlebnis bis hin zu barrierefreien Lösungen planen wir jeden Wunsch professionell und um.
+          </p>
+          <ul class="wellness-features">
+            <li>
+              <div class="feature-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              Individuelle Badplanung & Galerie
+            </li>
+            <li>
+              <div class="feature-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              Barrierefreie Gestaltung
+            </li>
+            <li>
+              <div class="feature-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              Komplettlösung aus einer Hand
+            </li>
+            <li>
+              <div class="feature-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              Hochwertige Markenprodukte
+            </li>
+          </ul>
+          <a href="#kontakt" class="btn btn-primary btn-lg">Jetzt beraten lassen</a>
+        </div>
+        <div class="wellness-visual">
+          <div class="wellness-card wellness-card--1">
+            <div class="wc-icon">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 6H5a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-4"/><path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/><path d="M12 13v8"/><path d="M9 21h6"/></svg>
+            </div>
+            <span>Moderne Designs</span>
+          </div>
+          <div class="wellness-card wellness-card--2">
+            <div class="wc-icon">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <span>Barrierefrei</span>
+          </div>
+          <div class="wellness-card wellness-card--3">
+            <div class="wc-icon">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+            </div>
+            <span>Schnelle Umsetzung</span>
+          </div>
+          <div class="wellness-badge">
+            <span class="badge-num">100%</span>
+            <span class="badge-text">Zufriedenheitsgarantie</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== ÜBER UNS ======== -->
+  <section class="section" id="ueber-uns">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="about-years">
+            <span class="years-num">60</span>
+            <span class="years-plus">+</span>
+            <span class="years-label">Jahre<br/>Erfahrung</span>
+          </div>
+          <div class="about-badges-grid">
+            <div class="about-badge">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M6 20v-2a6 6 0 0 1 12 0v2"/></svg>
+              <span>SHK Innung Kassel</span>
+            </div>
+            <div class="about-badge">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+              <span>Elektro Innung Kassel</span>
+            </div>
+            <div class="about-badge">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              <span>Fachbetrieb Sicherheit</span>
+            </div>
+            <div class="about-badge">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span>Notfallservice 24/7</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text">
+          <span class="section-tag">Über uns</span>
+          <h2 class="section-title">Tradition trifft Moderne</h2>
+          <p class="about-desc">
+            Seit über 60 Jahren ist Maurer Haustechnik GmbH ein fester Bestandteil der Region Kassel. Was als handwerklicher Fachbetrieb begann, ist heute ein modernes Unternehmen, das traditionelle Handwerkskunst mit innovativer Technologie verbindet.
+          </p>
+          <p class="about-desc">
+            Als Mitglied der SHK Innung Kassel und der Elektro Innung Kassel stehen wir für höchste Qualitätsstandards und kontinuierliche Weiterbildung. Unsere Fachkräfte sind in mehreren Bereichen – von der Satellitentechnik bis zur Sicherheitstechnik – zertifiziert.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight">
+              <div class="highlight-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <strong>Alles aus einer Hand</strong>
+                <p>Elektro, Sanitär, Heizung, Sicherheit und Kommunikation</p>
+              </div>
+            </div>
+            <div class="highlight">
+              <div class="highlight-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <strong>Zertifizierte Fachbetriebe</strong>
+                <p>Mitglied mehrerer Fachverbände und Innungen</p>
+              </div>
+            </div>
+            <div class="highlight">
+              <div class="highlight-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <strong>Bereitschaftsdienst</strong>
+                <p>Erreichbar auch außerhalb der Geschäftszeiten</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== KONTAKT ======== -->
+  <section class="section section--gray" id="kontakt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Kontakt</span>
+        <h2 class="section-title">Sprechen Sie uns an</h2>
+        <p class="section-subtitle">Wir freuen uns auf Ihre Anfrage und beraten Sie gerne persönlich</p>
+      </div>
+      <div class="contact-grid">
+
+        <div class="contact-card contact-card--highlight">
+          <div class="contact-card-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.42A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </div>
+          <h3>Telefon</h3>
+          <a href="tel:056183151" class="contact-link contact-link--large">0561-83151</a>
+          <p class="contact-note">Montag – Freitag: 07:30 – 17:00 Uhr</p>
+          <div class="contact-divider"></div>
+          <p class="contact-emerg-label">Notfall-Bereitschaft:</p>
+          <a href="tel:056183151" class="contact-link">0561-831 51</a>
+          <p class="contact-note">Auch außerhalb der Geschäftszeiten</p>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-card-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <h3>E-Mail & Fax</h3>
+          <a href="mailto:info@maurer-haustechnik.de" class="contact-link">info@maurer-haustechnik.de</a>
+          <p class="contact-note">Wir antworten innerhalb von 24 Stunden</p>
+          <div class="contact-divider"></div>
+          <p class="contact-emerg-label">Fax:</p>
+          <span class="contact-link">0561-83100</span>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-card-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3>Adresse</h3>
+          <address class="contact-address">
+            Maurer Haustechnik GmbH<br />
+            Quellhofstr. 21<br />
+            34127 Kassel
+          </address>
+          <a href="https://maps.google.com/?q=Quellhofstr.+21,+34127+Kassel" target="_blank" rel="noopener" class="btn btn-outline btn-sm map-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Auf Karte anzeigen
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== FOOTER ======== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#home" class="logo logo--light">
+          <span class="logo-m">M</span>
+          <span class="logo-text">aurer <strong>Haustechnik</strong></span>
+        </a>
+        <p class="footer-tagline">Elektro · Sanitär · Heizung · Sicherheit</p>
+        <p class="footer-address">Quellhofstr. 21, 34127 Kassel</p>
+      </div>
+      <div class="footer-links">
+        <h4>Leistungen</h4>
+        <ul>
+          <li><a href="#leistungen">Heizung</a></li>
+          <li><a href="#leistungen">Sanitär</a></li>
+          <li><a href="#leistungen">Elektro</a></li>
+          <li><a href="#leistungen">Sicherheit</a></li>
+          <li><a href="#leistungen">Kommunikation</a></li>
+          <li><a href="#leistungen">Service & Wartung</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Unternehmen</h4>
+        <ul>
+          <li><a href="#ueber-uns">Über uns</a></li>
+          <li><a href="#wellness">Wellness & Bad</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Kontakt</h4>
+        <a href="tel:056183151">0561-83151</a>
+        <a href="mailto:info@maurer-haustechnik.de">info@maurer-haustechnik.de</a>
+        <p>www.maurer-haustechnik.de</p>
+        <div class="footer-innungen">
+          <span class="innung-badge">SHK Innung Kassel</span>
+          <span class="innung-badge">Elektro Innung Kassel</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2024 Maurer Haustechnik GmbH · Alle Rechte vorbehalten</p>
+        <div class="footer-bottom-links">
+          <a href="#">Impressum</a>
+          <a href="#">Datenschutz</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
